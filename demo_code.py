@@ -99,7 +99,21 @@ def tar_something():
 def bad_isinstance(initial_condition, object, other_obj, foo, bar, baz):
     pass
 
+def not_check(x):
+    if x in (1, 2, ,7,3):
+        print("Yes")
+    elif x != 2 or x != 3:
+        print("also true")
 
+    elif x in (2, 3) or x in (5, 4):
+        print("Here")
+
+    elif x == 10 or x == 20 or x == 30 and x == 40:
+        print("Sweet!")
+
+    elif x in (10, 20, 30):
+        print("Why even?")
+        
 def check(x):
     if x in (1, 2, 3):
         print("Yes")
