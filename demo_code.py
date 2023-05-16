@@ -49,6 +49,7 @@ class ImaginaryNumber:
 
     def __init__(self):
         self.real = 0
+        self.complex = -1
         self.imaginary = 1
 
     def __getattr__(self, key):
