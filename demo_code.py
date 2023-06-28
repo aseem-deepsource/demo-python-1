@@ -77,7 +77,7 @@ def main(options: dict = None) -> str:
 
 def moon_chooser(moon, moons=None):
     if moons is None:
-        moons = ["europa", "callisto", "phobos"]
+        moons = ["europa", "callisto", "phobos", "moon"]
     if moon is not None:
         moons.append(moon)
 
