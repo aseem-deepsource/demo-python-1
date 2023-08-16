@@ -16,4 +16,4 @@ class Child(Base, BaseOne):
 
 
 class ChildOne(Base, BaseOne, abc.ABC, abc.ABCMeta):
-    """Class with duplicate bases"""
+    """Class with duplicate bases O_o"""
