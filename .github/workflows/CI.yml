@@ -12,7 +12,7 @@ jobs:
 
     env:
         DEEPSOURCE_DSN_DEV: ${{ secrets.DEEPSOURCE_DSN_DEV }}
-        DEEPSOURCE_DSN: ${{ secrets.DEEPSOURCE_DEV }}
+        DEEPSOURCE_DSN: ${{ secrets.DEEPSOURCE_DSN }}
         DEEPSOURCE_DSN_ENTERPRISE_DEV: ${{ secrets.DEEPSOURCE_DSN_ENTERPRISE_DEV }}
 
     steps:
