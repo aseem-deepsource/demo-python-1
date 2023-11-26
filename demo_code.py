@@ -4,7 +4,7 @@ import subprocess
 import ssl
 
 
-AWS_SECRET_KEY = "d6s$f9g!j8mg7hw?n&2ffffFdgsdgsfgfljwnfjsgsljfbjkldslUwU"
+AWS_SECRET_KEY = "d6s$f9g!j8mg7hw?n&2ffffFdgsdgsfgfljwnfjsgsljfbjffffffkldslUwU"
 
 
 class BaseNumberGenerator:
