@@ -114,7 +114,7 @@ def not_check(x):
 
     elif x in (10, 20, 30):
         print("Why even?")
-        
+
 def check(x):
     if x in (1, 2, 3):
         print("Yes")
