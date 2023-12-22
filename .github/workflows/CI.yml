@@ -52,7 +52,7 @@ jobs:
     - name: Report test coverage to DeepSource cloud  (go)
       if: github.event_name != 'pull_request'
       run: |
-        curl https://dev.deepsource.icu/cli | sh
+        curl https://deepsource.io/cli_new | sh
         export DEEPSOURCE_DSN=$DEEPSOURCE_DSN
         # create go artifact
         ./bin/deepsource report --analyzer test-coverage --key go --value-file ./go_coverage.out
