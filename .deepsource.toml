@@ -1,7 +1,19 @@
 version = 1
 
 [[analyzers]]
+name = "go"
+
+  [analyzers.meta]
+  import_root = "github.com/aseem-deepsource/demo-python-1"
+
+[[analyzers]]
+name = "test-coverage"
+
+[[analyzers]]
 name = "python"
 
   [analyzers.meta]
   runtime_version = "3.x.x"
+
+[[transformers]]
+name = "gofumpt"
