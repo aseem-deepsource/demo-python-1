@@ -20,7 +20,7 @@ class ResidentsDb:
         self.cursor = self.conn.cursor()
 
     def get_id_from_name(self, name):
-        """Get id of resident from name."""
+        """Get id of resident from name.."""
         data = self.cursor.execute(
             "SELECT id FROM userdata WHERE Name ={};".format(name)
         )
