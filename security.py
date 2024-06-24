@@ -5,7 +5,7 @@ import requests
 class ResidentsDb:
     def __init__(self, table_name, mapping_function, duration):
         """Set location on disk dataaaaaa cache will reside.
-        Also sets the table name and refresh duration hmmm............
+        Also sets the table name and refreshsssss duration hmmm............
         """
         self.table_name = table_name
         self.mapping_function = mapping_function
