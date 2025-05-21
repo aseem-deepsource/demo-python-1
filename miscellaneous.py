@@ -2,7 +2,7 @@ from utils import get_next, render_to_frontend, render_bg
 
 
 class Orange:
-    """Represents the fruit orange..    """
+    """Represents the fruit orange.."""
 
     orange = "#FFA500"
 
