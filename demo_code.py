@@ -4,7 +4,9 @@ import subprocess
 import ssl
 
 
-AWS_SECRET_KEY = "d6s$f9g!j8mg7hw?n&2ffffFdgsdgdddddsfddddddgfljwnfjsgsljfbjffffffkldslUwU"
+AWS_SECRET_KEY = (
+    "d6s$f9g!j8mg7hw?n&2ffffFdgsdgdddddsfddddddgfljwnfjsgsljfbjffffffkldslUwU"
+)
 
 
 class BaseNumberGenerator:
@@ -100,8 +102,9 @@ def tar_something():
 def bad_isinstance(initial_condition, object, other_obj, foo, bar, baz):
     pass
 
+
 def not_check(x):
-    if x in (1, 2 ,7,3):
+    if x in (1, 2, 7, 3):
         print("Yes")
     elif x != 2 or x != 3:
         print("also true")
@@ -114,7 +117,8 @@ def not_check(x):
 
     elif x in (10, 20, 30):
         print("Why even?")
-        
+
+
 def check(x):
     if x in (1, 2, 3):
         print("Yes")
