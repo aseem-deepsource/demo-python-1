@@ -17,3 +17,6 @@ name = "python"
 
 [[transformers]]
 name = "gofumpt"
+
+[[transformers]]
+name = "black"
