@@ -16,7 +16,7 @@ name = "python"
   runtime_version = "3.x.x"
 
 [[transformers]]
-name = "gofmt"
+name = "gofumpt"
 
 [[transformers]]
-name = "ruff"
+name = "black"
